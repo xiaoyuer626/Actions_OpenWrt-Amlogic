@@ -3436,7 +3436,7 @@ CONFIG_PACKAGE_python3-codecs=y
 CONFIG_PACKAGE_python3-ctypes=y
 # CONFIG_PACKAGE_python3-ctypes-src is not set
 # CONFIG_PACKAGE_python3-curl is not set
-CONFIG_PACKAGE_python3-dateutil=y
+# CONFIG_PACKAGE_python3-dateutil is not set
 # CONFIG_PACKAGE_python3-dateutil-src is not set
 CONFIG_PACKAGE_python3-dbm=y
 # CONFIG_PACKAGE_python3-dbm-src is not set
@@ -3457,13 +3457,13 @@ CONFIG_PACKAGE_python3-dns=y
 # CONFIG_PACKAGE_python3-dns-src is not set
 # CONFIG_PACKAGE_python3-docker is not set
 # CONFIG_PACKAGE_python3-dockerpty is not set
-CONFIG_PACKAGE_python3-docopt=y
+# CONFIG_PACKAGE_python3-docopt is not set
 # CONFIG_PACKAGE_python3-docopt-src is not set
 # CONFIG_PACKAGE_python3-docutils is not set
-CONFIG_PACKAGE_python3-dotenv=y
+# CONFIG_PACKAGE_python3-dotenv is not set
 # CONFIG_PACKAGE_python3-dotenv-src is not set
 # CONFIG_PACKAGE_python3-drf-nested-routers is not set
-CONFIG_PACKAGE_python3-email=y
+# CONFIG_PACKAGE_python3-email is not set
 # CONFIG_PACKAGE_python3-email-src is not set
 # CONFIG_PACKAGE_python3-engineio is not set
 # CONFIG_PACKAGE_python3-et_xmlfile is not set
@@ -3498,7 +3498,7 @@ CONFIG_PACKAGE_python3-idna=y
 # CONFIG_PACKAGE_python3-jinja2 is not set
 # CONFIG_PACKAGE_python3-jmespath is not set
 # CONFIG_PACKAGE_python3-jsonpath-ng is not set
-CONFIG_PACKAGE_python3-jsonschema=y
+# CONFIG_PACKAGE_python3-jsonschema is not set
 # CONFIG_PACKAGE_python3-jsonschema-src is not set
 # CONFIG_PACKAGE_python3-lib2to3 is not set
 # CONFIG_PACKAGE_python3-libmodbus is not set
@@ -4845,7 +4845,6 @@ CONFIG_PACKAGE_libid3tag=y
 # CONFIG_PACKAGE_libinotifytools is not set
 # CONFIG_PACKAGE_libinput is not set
 # CONFIG_PACKAGE_libintl-full is not set
-CONFIG_PACKAGE_libiperf3=y
 # CONFIG_PACKAGE_libipfs-http-client is not set
 # CONFIG_PACKAGE_libiw is not set
 CONFIG_PACKAGE_libiwinfo=y
@@ -5334,7 +5333,7 @@ CONFIG_PACKAGE_luci-app-iptvhelper=y
 # CONFIG_PACKAGE_luci-app-memos is not set
 # CONFIG_PACKAGE_luci-app-mentohust is not set
 CONFIG_PACKAGE_luci-app-minidlna=y
-CONFIG_PACKAGE_luci-app-minieap=y
+# CONFIG_PACKAGE_luci-app-minieap is not set
 CONFIG_PACKAGE_luci-app-mjpg-streamer=y
 CONFIG_PACKAGE_luci-app-mosdns=y
 # CONFIG_PACKAGE_luci-app-msd_lite is not set
@@ -5347,7 +5346,6 @@ CONFIG_PACKAGE_luci-app-n2n=y
 # CONFIG_PACKAGE_luci-app-navidrome is not set
 CONFIG_PACKAGE_luci-app-netdata=y
 # CONFIG_PACKAGE_luci-app-netkeeper-interception is not set
-CONFIG_PACKAGE_luci-app-netspeedtest=y
 CONFIG_PACKAGE_luci-app-nextcloud=y
 CONFIG_PACKAGE_luci-app-nfs=y
 # CONFIG_PACKAGE_luci-app-nft-qos is not set
@@ -5425,7 +5423,6 @@ CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs=y
 
 # CONFIG_PACKAGE_luci-app-pcimodem is not set
 # CONFIG_PACKAGE_luci-app-penpot is not set
-CONFIG_PACKAGE_luci-app-pgyvpn=y
 # CONFIG_PACKAGE_luci-app-photoprism is not set
 CONFIG_PACKAGE_luci-app-phtunnel=y
 # CONFIG_PACKAGE_luci-app-plex is not set
@@ -5438,12 +5435,12 @@ CONFIG_PACKAGE_luci-app-poweroff=y
 # CONFIG_PACKAGE_luci-app-privoxy is not set
 # CONFIG_PACKAGE_luci-app-ps3netsrv is not set
 CONFIG_PACKAGE_luci-app-pushbot=y
-CONFIG_PACKAGE_luci-app-qbittorrent=y
-CONFIG_PACKAGE_luci-app-qbittorrent_static=y
+# CONFIG_PACKAGE_luci-app-qbittorrent is not set
+# CONFIG_PACKAGE_luci-app-qbittorrent_static is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent_dynamic is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple is not set
 # CONFIG_PACKAGE_luci-app-qbittorrent-simple_static is not set
-CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic=y
+# CONFIG_PACKAGE_luci-app-qbittorrent-simple_dynamic is not set
 # CONFIG_PACKAGE_luci-app-qos is not set
 # CONFIG_PACKAGE_luci-app-quickstart is not set
 # CONFIG_PACKAGE_luci-app-radicale is not set
@@ -5851,8 +5848,6 @@ CONFIG_PACKAGE_luci-i18n-mwan3-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-mwan3helper-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-n2n-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-netdata-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-netspeedtest-zh-cn=y
-# CONFIG_PACKAGE_luci-i18n-netspeedtest-zh_Hans is not set
 CONFIG_PACKAGE_luci-i18n-nextcloud-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-nfs-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-nlbwmon-ja is not set
@@ -5900,7 +5895,7 @@ CONFIG_PACKAGE_luci-i18n-phtunnel-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-poweroff-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-poweroff-zh-tw is not set
 # CONFIG_PACKAGE_luci-i18n-poweroff-zh_Hans is not set
-CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn=y
+# CONFIG_PACKAGE_luci-i18n-qbittorrent-zh-cn is not set
 CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
 # CONFIG_PACKAGE_luci-i18n-rclone-en is not set
 CONFIG_PACKAGE_luci-i18n-rclone-zh-cn=y
@@ -6160,7 +6155,7 @@ CONFIG_PACKAGE_mjpg-streamer-www=y
 # CONFIG_PACKAGE_opentracker is not set
 # CONFIG_PACKAGE_opentracker6 is not set
 # CONFIG_PACKAGE_qBittorrent-Enhanced-Edition is not set
-CONFIG_PACKAGE_qBittorrent-static=y
+# CONFIG_PACKAGE_qBittorrent-static is not set
 # CONFIG_PACKAGE_qbittorrent is not set
 # CONFIG_PACKAGE_rtorrent is not set
 # CONFIG_PACKAGE_rtorrent-rpc is not set
@@ -6837,20 +6832,13 @@ CONFIG_OPENVPN_openssl_ENABLE_PF=y
 # CONFIG_OPENVPN_openssl_ENABLE_IPROUTE2 is not set
 CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
 # CONFIG_PACKAGE_openvpn-wolfssl is not set
-CONFIG_PACKAGE_pgyvpn=y
 # CONFIG_PACKAGE_pptpd is not set
 # CONFIG_PACKAGE_softethervpn-base is not set
 # CONFIG_PACKAGE_softethervpn-bridge is not set
 # CONFIG_PACKAGE_softethervpn-client is not set
 # CONFIG_PACKAGE_softethervpn-server is not set
-CONFIG_PACKAGE_softethervpn5-bridge=y
-CONFIG_PACKAGE_softethervpn5-client=y
-CONFIG_PACKAGE_softethervpn5-libs=y
-CONFIG_PACKAGE_softethervpn5-server=y
 # CONFIG_PACKAGE_sstp-client is not set
 # CONFIG_PACKAGE_strongswan is not set
-CONFIG_PACKAGE_tailscale=y
-CONFIG_PACKAGE_tailscaled=y
 # CONFIG_PACKAGE_tinc is not set
 # CONFIG_PACKAGE_uanytun is not set
 # CONFIG_PACKAGE_uanytun-nettle is not set
@@ -7194,7 +7182,7 @@ CONFIG_PACKAGE_hysteria=y
 CONFIG_PACKAGE_iftop=y
 # CONFIG_PACKAGE_iiod is not set
 # CONFIG_PACKAGE_iperf is not set
-CONFIG_PACKAGE_iperf3=y
+# CONFIG_PACKAGE_iperf3 is not set
 # CONFIG_PACKAGE_iperf3-ssl is not set
 # CONFIG_PACKAGE_ipip is not set
 CONFIG_PACKAGE_ipset=y
@@ -8356,4 +8344,4 @@ CONFIG_PACKAGE_watchcat=y
 # end of Font-Utils
 # end of Xorg
 
-CONFIG_OVERRIDE_PKGS="UnblockNeteaseMusic UnblockNeteaseMusic-Go adguardhome aliyundrive-fuse aliyundrive-webdav amule antileech aria2 baidupcs-web dnsforwarder dnsproxy gmediarender go-aliyundrive-webdav gowebdav haproxy libcups luci-app-aliyundrive-fuse luci-app-aliyundrive-webdav luci-app-amule luci-app-argon-config luci-app-autoreboot luci-app-baidupcs-web luci-app-diskman luci-app-dockerman luci-app-easymesh luci-app-guest-wifi luci-app-ipsec-server luci-app-kodexplorer luci-app-mosdns luci-app-nft-qos luci-app-pppoe-relay luci-app-pptp-server luci-app-pushbot luci-app-ramfree luci-app-serverchan luci-app-socat luci-app-softethervpn luci-app-verysync luci-app-xlnetacc luci-lib-ipkg miniupnpd msmtp mwan3 nft-qos nps pdnsd-alt qBittorrent qBittorrent-static qtbase qttools rblibtorrent shadowsocks-libev smartdns tcpping uugamebooster verysync wxbase"
+CONFIG_OVERRIDE_PKGS="UnblockNeteaseMusic UnblockNeteaseMusic-Go adguardhome aliyundrive-fuse aliyundrive-webdav amule antileech aria2 baidupcs-web dnsforwarder dnsproxy gmediarender go-aliyundrive-webdav gowebdav haproxy libcups luci-app-aliyundrive-fuse luci-app-aliyundrive-webdav luci-app-amule luci-app-argon-config luci-app-autoreboot luci-app-baidupcs-web luci-app-diskman luci-app-dockerman luci-app-easymesh luci-app-guest-wifi luci-app-ipsec-server luci-app-kodexplorer luci-app-mosdns luci-app-nft-qos luci-app-pppoe-relay luci-app-pptp-server luci-app-pushbot luci-app-ramfree luci-app-serverchan luci-app-socat luci-app-softethervpn luci-app-verysync luci-app-xlnetacc luci-lib-ipkg miniupnpd msmtp mwan3 nft-qos nps pdnsd-alt qtbase qttools rblibtorrent shadowsocks-libev smartdns tcpping uugamebooster verysync wxbase"
